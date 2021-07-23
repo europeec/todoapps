@@ -23,6 +23,10 @@ class ModelData: ObservableObject {
         }
     }
     
+    func addNew(title: String) {
+        data[0].tasks.append(title)
+    }
+    
 }
 
 struct SectionData: Identifiable {

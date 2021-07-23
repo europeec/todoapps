@@ -14,6 +14,9 @@ struct MainScreenView: View {
     @State var showAlert = false
     
     @ObservedObject var model: ModelData = ModelData.shared
+    
+    @AppStorage("needGreeting") var needGreeting = true
+    
     var body: some View {
         ZStack {
             NavigationView {
@@ -30,15 +33,31 @@ struct MainScreenView: View {
                                 }
                             }
                         }
-                    }
+                    }.disabled(showAlert || needGreeting)
                     
                 }.navigationTitle("TODO?")
                 .navigationBarItems(trailing: AddButton(show: $showAlert))
+                
                 .listStyle(InsetListStyle())
                 
                 
-            }.disabled(showAlert)
+            }
             .blur(radius: showAlert ? 5 : 0)
+            
+            if (true) {
+                VStack (alignment: .trailing) {
+                    HStack {
+                        Spacer()
+                        
+                        Circle()
+                            .frame(width: 100)
+                            .foregroundColor(.red)
+                            
+                    }
+                    
+                    Spacer()
+                }.background(Color.secondary)
+            }
             
             AddScreenView(show: $showAlert)
         }

@@ -16,6 +16,8 @@
 		F0BB066F26AB07D100EA1148 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB066E26AB07D100EA1148 /* TitleView.swift */; };
 		F0BB067126AB07EA00EA1148 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB067026AB07EA00EA1148 /* TaskView.swift */; };
 		F0BB067426AB084400EA1148 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB067326AB084400EA1148 /* MainScreenView.swift */; };
+		F0BB067626AB1A8600EA1148 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB067526AB1A8600EA1148 /* AddButton.swift */; };
+		F0BB067826AB1ABC00EA1148 /* AddScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB067726AB1ABC00EA1148 /* AddScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F0BB066E26AB07D100EA1148 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		F0BB067026AB07EA00EA1148 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		F0BB067326AB084400EA1148 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		F0BB067526AB1A8600EA1148 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		F0BB067726AB1ABC00EA1148 /* AddScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				F0BB066C26AB07AC00EA1148 /* SectionView.swift */,
 				F0BB066E26AB07D100EA1148 /* TitleView.swift */,
 				F0BB067026AB07EA00EA1148 /* TaskView.swift */,
+				F0BB067526AB1A8600EA1148 /* AddButton.swift */,
+				F0BB067726AB1ABC00EA1148 /* AddScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,9 +179,11 @@
 				F0BB066926AB031400EA1148 /* Model.swift in Sources */,
 				F0BB067426AB084400EA1148 /* MainScreenView.swift in Sources */,
 				F0961DC926AACF6B005F463E /* ContentView.swift in Sources */,
+				F0BB067826AB1ABC00EA1148 /* AddScreenView.swift in Sources */,
 				F0BB067126AB07EA00EA1148 /* TaskView.swift in Sources */,
 				F0961DC726AACF6B005F463E /* todoApp.swift in Sources */,
 				F0BB066F26AB07D100EA1148 /* TitleView.swift in Sources */,
+				F0BB067626AB1A8600EA1148 /* AddButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

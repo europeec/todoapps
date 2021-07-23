@@ -11,6 +11,11 @@
 		F0961DC926AACF6B005F463E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0961DC826AACF6B005F463E /* ContentView.swift */; };
 		F0961DCB26AACF72005F463E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0961DCA26AACF72005F463E /* Assets.xcassets */; };
 		F0961DCE26AACF72005F463E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0961DCD26AACF72005F463E /* Preview Assets.xcassets */; };
+		F0BB066926AB031400EA1148 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB066826AB031400EA1148 /* Model.swift */; };
+		F0BB066D26AB07AC00EA1148 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB066C26AB07AC00EA1148 /* SectionView.swift */; };
+		F0BB066F26AB07D100EA1148 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB066E26AB07D100EA1148 /* TitleView.swift */; };
+		F0BB067126AB07EA00EA1148 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB067026AB07EA00EA1148 /* TaskView.swift */; };
+		F0BB067426AB084400EA1148 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB067326AB084400EA1148 /* MainScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		F0961DCA26AACF72005F463E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0961DCD26AACF72005F463E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0961DCF26AACF72005F463E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BB066826AB031400EA1148 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F0BB066C26AB07AC00EA1148 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		F0BB066E26AB07D100EA1148 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		F0BB067026AB07EA00EA1148 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		F0BB067326AB084400EA1148 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,9 @@
 		F0961DC526AACF6B005F463E /* todo */ = {
 			isa = PBXGroup;
 			children = (
+				F0BB066B26AB078400EA1148 /* Views */,
 				F0961DC626AACF6B005F463E /* todoApp.swift */,
-				F0961DC826AACF6B005F463E /* ContentView.swift */,
+				F0BB066A26AB077400EA1148 /* Model */,
 				F0961DCA26AACF72005F463E /* Assets.xcassets */,
 				F0961DCF26AACF72005F463E /* Info.plist */,
 				F0961DCC26AACF72005F463E /* Preview Content */,
@@ -67,6 +78,26 @@
 				F0961DCD26AACF72005F463E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0BB066A26AB077400EA1148 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0BB066826AB031400EA1148 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0BB066B26AB078400EA1148 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0961DC826AACF6B005F463E /* ContentView.swift */,
+				F0BB067326AB084400EA1148 /* MainScreenView.swift */,
+				F0BB066C26AB07AC00EA1148 /* SectionView.swift */,
+				F0BB066E26AB07D100EA1148 /* TitleView.swift */,
+				F0BB067026AB07EA00EA1148 /* TaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BB066D26AB07AC00EA1148 /* SectionView.swift in Sources */,
+				F0BB066926AB031400EA1148 /* Model.swift in Sources */,
+				F0BB067426AB084400EA1148 /* MainScreenView.swift in Sources */,
 				F0961DC926AACF6B005F463E /* ContentView.swift in Sources */,
+				F0BB067126AB07EA00EA1148 /* TaskView.swift in Sources */,
 				F0961DC726AACF6B005F463E /* todoApp.swift in Sources */,
+				F0BB066F26AB07D100EA1148 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
